@@ -33,7 +33,7 @@ app.get('/', function(req, res) {
 	res.send("Hi I am a chatbot. Find me @ https://www.facebook.com/chatbot08/")
 })
 
-let token = "EAAF2zHifBiEBAPrEdBGtUzf8hcx2Q2Gtl15y0b0UgpHrU3T8ApKVyeRIT6XILZAbxPlTaMQxUeqRDVTPX8NHT0eUOFrAZCLzbiblNCGHLO6xIAWnRNfEh0ERZAmhpZBhjSBmPE1y1q3ZCnRI7Mp0ZC7SZA217lrprzrpt0cBEDjMAZDZD"
+let token = "YOUR ACCESS TOKEN"
 
 
 app.get('/webhook/', function(req, res) {
