@@ -51,8 +51,7 @@ app.post('/webhook/', function(req, res) {
 		if (event.message && event.message.text) {
 			let text = event.message.text
 			if(text.includes("about vit")){
-				sendText(sender, "VIT university was founded in 1984 by Dr. G. Viswanathan, a former parliamentarian and minister in the Tamil Nadu Government, as a self-financing institution called the ‘Vellore Engineering College’. Since then the institution has grown from strength to strength")
-			}
+				sendText(sender, "VIT university was founded in 1984" }
 			else if(text.includes("ai-vit")){
 				sendText(sender, "Coming Soon! Just wait for it")
 			}
